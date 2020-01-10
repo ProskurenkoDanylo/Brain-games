@@ -15,6 +15,6 @@
     <li>Following the video</li>
   </ol>
 </div>
-<a href="https://asciinema.org/a/G5RXc6Y4VZUXBrbf2pohXxPxR"><img src="https://asciinema.org/a/LwVJuAWS73WOpoerE5vqyEYHs.svg" /></a>
+<a href="https://asciinema.org/a/b0NmNIjvwAaTnruzAyI8nS2xX"><img src="https://asciinema.org/a/LwVJuAWS73WOpoerE5vqyEYHs.svg" /></a>
 </body>
 </html>
