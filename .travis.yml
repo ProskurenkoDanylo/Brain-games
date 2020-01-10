@@ -1,10 +1,13 @@
 language: python
 python:
-- 3.6
+- 3.6.9
+
 before_install:
 - pip install poetry
 - pip install flake8
+
 install:
 - poetry install
+
 script:
 - make lint
