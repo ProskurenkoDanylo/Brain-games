@@ -5,7 +5,7 @@
 <body>
   <h1>Python project 1</h1>
 <a href="https://codeclimate.com/github/ProskurenkoDanylo/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4d79b3a0935cdf6ad47c/maintainability" /></a>
-<a href="https://travis-ci.com/ProskurenkoDanylo/python-project-lvl1"><img src="https://travis-ci.com/ProskurenkoDanylo/python-project-lvl1.svg?branch=master></a>
+<a href="https://travis-ci.com/ProskurenkoDanylo/python-project-lvl1"><img src="https://api.travis-ci.com/ProskurenkoDanylo/python-project-lvl1.svg?branch=master"></a>
 <div id=""howTo>
   <h2>How to use:</h2>
   <ol>
