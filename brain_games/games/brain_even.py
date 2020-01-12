@@ -1,7 +1,7 @@
 import random
 
 
-main_question = 'Answer "yes" if number even otherwise answer "no".'
+MAIN_QUESTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def generating_a_question_and_answer():

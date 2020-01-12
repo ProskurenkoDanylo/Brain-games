@@ -1,6 +1,6 @@
 from random import randint, choice
 
-main_question = 'What number is missing in the progression?'
+MAIN_QUESTION = 'What number is missing in the progression?'
 
 
 def generating_a_question_and_answer():
@@ -15,5 +15,5 @@ def generating_a_question_and_answer():
     index = randint(0, 9)
     correct_answer = progression[index]
     progression[index] = ".."
-    question = ("{}\n".format(' '.join(map(str, progression))))
+    question = ("Question: {}\n".format(' '.join(map(str, progression))))
     return question, correct_answer

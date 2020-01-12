@@ -7,4 +7,6 @@ def main():
     engine(brain_calc)
 
 
+if __name__ == '__main__':
+    main()
 

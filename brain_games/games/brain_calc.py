@@ -1,18 +1,19 @@
+from operator import add, sub, mul
 from random import choice, randint
 
-main_question = "What is the result of the expression?"
+MAIN_QUESTION = "What is the result of the expression?"
+
+OPERATIONS = (
+    ("+", add),
+    ("-", sub),
+    ("*", mul)
+)
 
 
 def generating_a_question_and_answer():
-    operator = choice(['*', '-', '+'])
+    operator, operation = choice(OPERATIONS)
     number2 = randint(1, 100)
     number1 = randint(1, 100)
-    question = ("{} {} {}\n".format(number1, operator, number2))
-    correct_answer = None
-    if operator == '*':
-        correct_answer = number1 * number2
-    elif operator == '-':
-        correct_answer = number1 - number2
-    elif operator == '+':
-        correct_answer = number1 + number2
+    question = ("Question: {} {} {}\n".format(number1, operator, number2))
+    correct_answer = str(operation(number1, number2))
     return question, correct_answer

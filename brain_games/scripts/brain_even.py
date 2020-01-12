@@ -7,5 +7,6 @@ def main():
     engine(brain_even)
 
 
-
+if __name__ == '__main__':
+    main()
 

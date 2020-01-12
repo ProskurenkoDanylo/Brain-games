@@ -1,20 +1,24 @@
-from brain_games.cli import on_wrong_answer
 import prompt
 
 
 def engine(game):
     print('Welcome to the Brain Games!')
-    print(game.main_question)
+    print(game.MAIN_QUESTION)
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
     rounds = 3
     while rounds:
-        question, correct_answer = game.generate_question()
-        answer = prompt.string('{} '.format(question))
+        question, correct_answer = game.generating_a_question_and_answer()
+        print(question)
+        answer = prompt.string('Your answer: ')
         if answer == correct_answer:
             print("Correct!")
             rounds -= 1
         else:
-            return on_wrong_answer(answer, correct_answer, name)
+            print("{} is wrong answer ;(. Correct answer was {}."
+                  .format(answer, correct_answer))
+            print("Let's try again, {}!".format(name))
+            rounds = 0
+            return None
 
     print('Congratulations, {}!'.format(name))

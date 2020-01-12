@@ -1,6 +1,6 @@
 from random import randint, choice
 
-main_question = "Find the greatest common divisor of given numbers."
+MAIN_QUESTION = "Find the greatest common divisor of given numbers."
 
 
 def gcd_calculating(number1, number2):
@@ -16,6 +16,6 @@ def generating_a_question_and_answer():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     correct_answer = None
-    question = ("{} {}\n".format(number1, number2))
+    question = ("Question: {} {}\n".format(number1, number2))
     correct_answer = gcd_calculating(number1, number2)
     return question, correct_answer

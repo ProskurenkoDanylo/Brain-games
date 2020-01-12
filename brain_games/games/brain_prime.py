@@ -1,7 +1,7 @@
 from random import randint, choice
 import math
 
-main_question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MAIN_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(n):
@@ -20,7 +20,7 @@ def is_prime(n):
 
 def generating_a_question_and_answer():
     number = randint(1, 1000)
-    question = "{}\n".format(number)
+    question = "Question: {}\n".format(number)
     correct_answer = ''
     if is_prime(number):
         correct_answer = "yes"
