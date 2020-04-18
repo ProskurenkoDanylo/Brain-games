@@ -12,7 +12,7 @@
     <li>Install python 3.6.9</li>
     <li>Install pip</li>
     <li>install prompt</li>
-    <li>Following the video</li>
+    <li>Follow the video</li>
   </ol>
 </div>
 <a href="https://asciinema.org/a/b0NmNIjvwAaTnruzAyI8nS2xX"><img src="https://asciinema.org/a/LwVJuAWS73WOpoerE5vqyEYHs.svg" /></a>
