@@ -9,7 +9,7 @@
 <div id=""howTo>
   <h2>How to use:</h2>
   <ol>
-    <li>Install python 3.6.9</li>
+    <li>Install python 3.6.9 or bigger</li>
     <li>Install pip</li>
     <li>install prompt</li>
     <li>Follow the video</li>
