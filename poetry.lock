@@ -54,7 +54,7 @@ version = "2.1.1"
 
 [metadata]
 content-hash = "f4037a9c0fde301271a2481f668450370ee705b16fd4cfa8bad0b2b6be37363f"
-python-versions = "3.6.9"
+python-versions = ">=3.6.9"
 
 [metadata.files]
 entrypoints = [
